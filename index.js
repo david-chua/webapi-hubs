@@ -8,9 +8,9 @@ server.use(express.json())
 
 console.log('hubs', db.hubs);
 
-// server.get('/', (req, res) => {
-//   res.send('Hello from Express');
-// })
+server.get('/', (req, res) => {
+  res.send('Hello from Express');
+})
 //
 // server.get('/now', (req, res) => {
 //   let d = new Date();
